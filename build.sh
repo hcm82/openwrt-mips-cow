@@ -1,4 +1,4 @@
-apt-get install golang-go git
+apt-get install -y golang-go git
 cd /opt
 git clone https://github.com/gomini/go-mips32.git
 cd go-mips32/src

@@ -4,3 +4,8 @@
 
 运行build.sh后，可在/home/golang/src/github.com/cyfdecyf/cow 中找到编译好的cow程序
 
+Dockerfile 是docker中的编译环境。build后可以直接用 
+```
+docker cp CONATINER_NAME:/home/golang/src/github.com/cyfdecyf/cow/cow . 
+```
+获取到编译好的cow版本
